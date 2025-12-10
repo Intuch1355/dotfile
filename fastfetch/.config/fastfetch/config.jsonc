@@ -21,7 +21,7 @@
         "break",
         {
             "type": "custom",
-            "format": "{#1}### NATHAN  @  FEDORA ###{#}",
+            "format": "{#1}### NATHAN  @  MANJARO ###{#}",
             "outputColor": "38;5;147"
         },
         "break",
@@ -35,6 +35,10 @@
             "type": "os", 
             "key": "   Os     ",
             "format": "{name}"
+        },
+        {
+            "type": "kernel",
+            "key": "   kernel "
         },
         { 
             "type": "uptime", 
