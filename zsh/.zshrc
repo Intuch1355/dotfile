@@ -21,3 +21,9 @@ eval "$(starship init zsh)"
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+# alias
+alias cat=bat
+alias ls=exa
+alias vim=nvim
+alias wget=aria2c
