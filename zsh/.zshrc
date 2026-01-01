@@ -27,3 +27,4 @@ alias cat=bat
 alias ls=exa
 alias vim=nvim
 alias wget=aria2c
+alias neofetch=fastfetch
