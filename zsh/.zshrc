@@ -5,7 +5,7 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
 # Plugins
-plugins=(zsh-autosuggestions zsh-syntax-highlighting sudo web-search)
+plugins=(zsh-autosuggestions sudo web-search copypath copyfile)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -23,8 +23,10 @@ eval "$(starship init zsh)"
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 # alias
-alias cat=bat
-alias ls=exa
-alias vim=nvim
-alias wget=aria2c
-alias neofetch=fastfetch
+# alias vim='nvim'
+alias cat='bat'
+alias ls='lsd'
+alias ll='lsd -al'
+alias wget='aria2c'
+alias neofetch='fastfetch'
+alias wal='wal --cols16 -i'
