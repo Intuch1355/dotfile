@@ -3,14 +3,14 @@
     "logo": {
         "source": "~/.config/fastfetch/logo.txt",
         "color": {             // Override logo colors
-        "1": "38;5;147"
+        "1": "red"
     }
     },
     "display": {
         "separator": " > ",
         "color": {
-            "keys": "38;5;147",
-            "title": "38;5;147"
+            "keys": "red",
+            "title": "red"
         },
         "key": {
             "width": 18,       
@@ -21,14 +21,13 @@
         "break",
         {
             "type": "custom",
-            "format": "{#1}### NATHAN  @  MANJARO ###{#}",
-            "outputColor": "38;5;147"
+            "format": "{#1}### NATHAN  @  NOBARA ###{#}",
+            "outputColor": "red"
         },
         "break",
         {
             "type": "custom",
             "format": "{#1}SYSTEM{#}",
-            "outputColor": "white"
         },
         "break",
         {
@@ -53,7 +52,6 @@
         {
             "type": "custom",
             "format": "{#1}DESKTOP{#}",
-            "outputColor": "white"
         },
         "break",
         { 
@@ -72,7 +70,6 @@
         {
             "type": "custom",
             "format": "{#1}HARDWARE{#}",
-            "outputColor": "white"
         },
         "break",
         { 
@@ -89,7 +86,9 @@
         },
         {   "type": "disk", 
             "key": "   Disk   " 
-        }
+        },
+        "break",
+        "colors"
     ]
   }
   
