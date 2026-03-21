@@ -13,6 +13,5 @@ source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
 ## ALIAS ##
-alias vim="nvim"
 alias ll="ls -al"
 alias neofetch="fastfetch"
