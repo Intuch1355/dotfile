@@ -12,11 +12,13 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
 
-## ALIAS ##
-alias ll="ls -al"
-alias neofetch="fastfetch"
-
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/nathan/.lmstudio/bin"
 # End of LM Studio CLI section
+
+## ALIAS ##
+alias vim="nvim"
+alias ll="ls -al"
+alias neofetch="fastfetch"
+
 
