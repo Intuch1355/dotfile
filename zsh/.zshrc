@@ -20,5 +20,3 @@ export PATH="$PATH:/Users/nathan/.lmstudio/bin"
 alias vim="nvim"
 alias ll="ls -al"
 alias neofetch="fastfetch"
-
-

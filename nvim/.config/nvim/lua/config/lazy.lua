@@ -32,7 +32,7 @@ require("lazy").setup({
           flavour = "mocha",
           transparent_background = true,
           integrations = {
-            lualine = false,
+            lualine = true,
           },
         })
 
@@ -94,5 +94,5 @@ require("lazy").setup({
   }, -- ✅ correctly closes spec
 
   install = { colorscheme = { "catppuccin" } }, -- also fixed name
-  checker = { enabled = true },
+  checker = { enabled = false },
 })
